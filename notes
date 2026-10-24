@@ -3,3 +3,5 @@ $ git clone https://github.com/firstlast20200202/kodekloud-postman.git .
 $ npm i
 $ node lesson1/index.js
 listening on port 4000    //output
+$ curl localhost:4000
+{"status":"success"}      //output                   
