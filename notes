@@ -17,7 +17,7 @@ app.post("/products", async (req, res) => {
 code icon </>
 it shows the code that we would need to generate the request, different language can be selected in the dropdown.
 
-using sessions and cokkies for authentication:
+using sessions and cookies for authentication:
 login request generates a cookie, deleting it via the 'cookie' link under 'Send' button would logout.
 
 using json web token for authentication:
