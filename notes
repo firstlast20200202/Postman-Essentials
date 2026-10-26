@@ -29,3 +29,4 @@ Login request generates a token, copy the token, before sending GET localhost:40
 select 'Bearer Toekn' in 'Authorization' tab, paste the token, then send. 
 In this way we need to copy and paste the token to every request.
 Instead we set the token in 'authorization' in Collection level and in each request we 'inherit' the token.
+To make the token dynamically updated along with login requests, set an environment variable in login request,
