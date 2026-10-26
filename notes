@@ -5,3 +5,12 @@ $ node lesson1/index.js
 listening on port 4000    //output
 $ curl localhost:4000
 {"status":"success"}      //output                   
+
+in Postman:
++ HTTP request (instead of MCP request) 
+GET localhost:4000/products
+POST localhost:4000/products     //required parameters in body could be found in the code as below
+//code
+app.post("/products", async (req, res) => {
+  const { name, price, category } = req.body;
+
