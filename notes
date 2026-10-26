@@ -10,7 +10,7 @@ in Postman:
 + HTTP request (instead of MCP request) 
 GET localhost:4000/products
 POST localhost:4000/products     //required parameters in body could be found in the code as below
-//code
+//requires "name", "price" and "category"
 app.post("/products", async (req, res) => {
   const { name, price, category } = req.body;
 
