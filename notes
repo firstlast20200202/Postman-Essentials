@@ -27,3 +27,5 @@ using json web token for authentication:
 $ node lesson3/index.js
 login request generates a token, copy the token, before sending GET localhost:4000/products, 
 select 'Bearer Toekn' in 'Authorization' tab, paste the token, then send. 
+in this way we need to copy and paste the token to every request.
+instead we set the token in 'authorization' in Collection level.
