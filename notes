@@ -1,3 +1,5 @@
+refer to the project in this repo: https://github.com/firstlast20200202/kodekloud-postman
+
 download and install node.js
 $ git clone https://github.com/firstlast20200202/kodekloud-postman.git .
 $ npm i
