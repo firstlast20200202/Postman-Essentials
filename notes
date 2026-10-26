@@ -34,3 +34,5 @@ To make the token dynamically updated along with login requests, set an environm
 and reference it in Collection configuration.
 var res = pm.response.json()
 pm.environment.set("token", res.token)
+
+params format in url: {{baseurl}}/products?filter=tv&price=12
