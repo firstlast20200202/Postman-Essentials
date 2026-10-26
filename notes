@@ -1,6 +1,6 @@
-refer to the project in this repo: https://github.com/firstlast20200202/kodekloud-postman
+Refer to the project in this repo: https://github.com/firstlast20200202/kodekloud-postman
 
-download and install node.js
+Download and install node.js
 $ git clone https://github.com/firstlast20200202/kodekloud-postman.git .
 $ npm i
 $ node lesson1/index.js
@@ -8,7 +8,7 @@ listening on port 4000    //output
 $ curl localhost:4000
 {"status":"success"}      //output                   
 
-in Postman:
+In Postman:
 + HTTP request (instead of MCP request) 
 GET localhost:4000/products
 POST localhost:4000/products     //required parameters in body could be found in the code as below
@@ -17,15 +17,15 @@ app.post("/products", async (req, res) => {
   const { name, price, category } = req.body;
 
 code icon </>
-it shows the code that we would need to generate the request, different language can be selected in the dropdown.
+It shows the code that we would need to generate the request, different language can be selected in the dropdown.
 
-using sessions and cookies for authentication:
+Using sessions and cookies for authentication:
 $ node lesson2/index.js
-login request generates a cookie, deleting it via the 'cookie' link under 'Send' button would logout.
+Login request generates a cookie, deleting it via the 'cookie' link under 'Send' button would logout.
 
-using json web token for authentication:
+Using json web token for authentication:
 $ node lesson3/index.js
-login request generates a token, copy the token, before sending GET localhost:4000/products, 
+Login request generates a token, copy the token, before sending GET localhost:4000/products, 
 select 'Bearer Toekn' in 'Authorization' tab, paste the token, then send. 
-in this way we need to copy and paste the token to every request.
-instead we set the token in 'authorization' in Collection level.
+In this way we need to copy and paste the token to every request.
+Instead we set the token in 'authorization' in Collection level and in each request we 'inherit' the token.
