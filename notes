@@ -36,3 +36,5 @@ var res = pm.response.json()
 pm.environment.set("token", res.token)
 
 params format in url: {{baseurl}}/products?filter=tv&price=12
+
+kodekloud notes link: https://notes.kodekloud.com/?_gl=1*1qikccg*_gcl_au*MTkyMzQyNjMwOS4xNzkyMzU3NzMx*_ga*MjQ2NDQ3MDE5LjE3Njg5NzU0Njg.*_ga_GNM9S6ZZKN*czE3OTMwNDk1OTAkbzYyOCRnMSR0MTc5MzA0OTU5MiRqNTgkbDAkaDI5MTk2NzE1OSRkV3F3NFlINVNIZmFZV1dYZXltZ1dteWdzcWg1aXhqQ2hqdw..
