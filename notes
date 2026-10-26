@@ -14,5 +14,11 @@ POST localhost:4000/products     //required parameters in body could be found in
 app.post("/products", async (req, res) => {
   const { name, price, category } = req.body;
 
+code icon </>
+it shows the code that we would need to generate the request, different language can be selected in the dropdown.
+
+using sessions and cokkies for authentication:
 login request generates a cookie, deleting it via the 'cookie' link under 'Send' button would logout.
+
+using json web token for authentication:
 
